@@ -25,7 +25,7 @@ install.packages("IRkernel", repos="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"
 conda install -y jupyterlab  
 #安装成功之后，在terminal中输入命令：  
 jupyter-lab --no-browser --port=8889
-终端输入ssh -N -f -L localhost:8893:localhost:8889 zhumengxuan@10.10.117.157
+终端输入ssh -N -f -L localhost:8893:localhost:8889 username@10.10.**.**
 #打开浏览器链接
 #在浏览器的搜索页面中输入 localhost:8893 即可访问
 ```
